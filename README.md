@@ -1,61 +1,55 @@
-This project demonstrates how raw sales data can be transformed into clean, usable insights through a mix of programming, analytics, and visualization.
+# Sales Analysis Project
 
-It began as a Java program focused on file input/output and data cleaning, but I expanded it into a portfolio-ready project that integrates with Power BI for visualization and includes UX concepts for future scalability.
+This project demonstrates how raw sales data can be transformed into clean, usable insights through programming and analytics.
 
-Key Features
+It began as a Java program focused on file input/output and data cleaning, and I later expanded it with a Python notebook for additional data analysis. The project is designed to show how classroom assignments can be evolved into portfolio-ready, real-world style work.
 
-Data Cleaning in Java
-- Filters invalid values (e.g., missing or NaN entries).
+---
+
+## Key Features
+
+### Data Cleaning in Java
+- Filters invalid values (e.g., missing or `NaN` entries).
 - Creates a cleaned CSV file ready for analysis.
+- Console-based summary of total sales, average sales, and top-selling product.
 
-Statistical Analysis
-- Computes total sales, average sales, and top-selling product.
-- Provides console-based summaries for quick insights.
+### Analysis in Python
+- Uses pandas for structured data handling.
+- Produces a clean dataset and summary statistics.
+- Generates basic visualizations (histograms of sales).
 
-Integration with Power BI
+### Future Expansion
+- Possible integration with Power BI or Tableau for richer dashboards.
+- UX mockups for a manager-facing sales tracker tool (planned).
 
-- Cleaned CSV is imported into Power BI.
-- Built interactive dashboards showing sales by product, sales distribution, and trends.
+---
 
-Future UX Expansion
-- Concept for a user-facing dashboard (could be web or mobile).
+## How to Run
 
-
-
-How to Run
-
-Run the Java code
-Compile: javac SalesTracker.java
-Run: java SalesTracker
+### Java Program
+1. Compile:  
+   ```bash
+   javac SalesTracker.java
+2. Run:
+java SalesTracker
 Input: sales.csv
 Output: salescleaned.csv
 
-Load into Power BI
-- Open Power BI Desktop.
-- Import salescleaned.csv.
-- Create visuals (bar chart, cards, etc.).
+Python Notebook
+1. Open sales_analysis.ipynb in Jupyter Notebook or VS Code.
+2. Run the cells to see:
+- Cleaned dataset
+- Summary stats
+- Histogram visualization
 
-(Optional) UX Mockups
-
-Open the /images folder to see Figma mockups of how this project could evolve into a user-facing dashboard.
-
-Console Output
-
+Console Output Example
 --- Sales Summary ---
-Total Sales: $1,236.25
-Average Sale: $154.53
+Total Sales: $1,237.00
+Average Sale: $154.63
 Top-Selling Product: Jeans
 
 Reflection
 
-This project shows how I can take a classroom-level coding assignment and evolve it into a portfolio-ready data project.
+This project shows how I can take academic-level work and transform it into something closer to real-world analysis. By combining Java programming with Python data analytics, I demonstrate the ability to clean, analyze, and present data in multiple ways.
 
-By combining:
-- Programming (Java)
-- Data Analytics (Power BI)
-- UX Design (Figma)
-
-I demonstrate the type of problem-solving, tool integration, and real-world thinking expected in data analyst, business analyst, and tech analyst internships.
-
-It also reflects my interest in expanding beyond backend logic into data visualization and user experience, making the project relevant for both technical and consulting roles.
-
+It also highlights my interest in expanding projects over time, adding visualization tools or UX design elements in the future to make them more useful for decision-making in business or technical settings.
